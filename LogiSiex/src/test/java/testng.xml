@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false" configfailurepolicy="skip">
+	<test name="DefinicionesSQL" preserve-order="true">
+		<classes>
+			<class name="general.Settings" />
+			<class name="test.LoginTest" />
+			<class name="test.HomeTest" />
+			<class name="test.SiExHomeTest" />
+			<!-- <class name="test.DefinicionSqlTest"/>	-->
+			<!--<class name="test.JunturaTest" />	-->
+			<!--<class name="test.ProcesoExternoTest" /> -->
+			<!--<class name="test.CamposSistemaExternoTest" /> -->
+			<!--<class name="test.CopiaTramasProcesoTest" />-->
+			<!--<class name="test.FiltroTest" />-->
+			<class name="test.FiltroSistemaExternoTest" />
+		</classes>
+	</test>
+</suite>
+	

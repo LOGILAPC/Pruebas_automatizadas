@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-16T14:28:01 ECT" name="Suite" finished-at="2021-09-16T14:28:55 ECT" duration-ms="54276">
+    <groups>
+    </groups>
+    <test started-at="2021-09-16T14:28:01 ECT" name="DefinicionesSQL" finished-at="2021-09-16T14:28:55 ECT" duration-ms="54276">
+      <class name="test.FiltroTest">
+        <test-method is-config="true" signature="beforeTestLogin()[pri:0, instance:test.FiltroTest@6f46426d]" started-at="2021-09-16T14:28:21 ECT" name="beforeTestLogin" finished-at="2021-09-16T14:28:21 ECT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestLogin -->
+        <test-method signature="crearFiltro()[pri:1, instance:test.FiltroTest@6f46426d]" started-at="2021-09-16T14:28:21 ECT" name="crearFiltro" finished-at="2021-09-16T14:28:36 ECT" duration-ms="15032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearFiltro -->
+        <test-method signature="editarFiltro()[pri:2, instance:test.FiltroTest@6f46426d]" started-at="2021-09-16T14:28:36 ECT" name="editarFiltro" finished-at="2021-09-16T14:28:46 ECT" duration-ms="9952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editarFiltro -->
+        <test-method signature="verSql()[pri:3, instance:test.FiltroTest@6f46426d]" started-at="2021-09-16T14:28:46 ECT" name="verSql" finished-at="2021-09-16T14:28:49 ECT" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verSql -->
+        <test-method signature="eliminarFiltro()[pri:4, instance:test.FiltroTest@6f46426d]" started-at="2021-09-16T14:28:49 ECT" name="eliminarFiltro" finished-at="2021-09-16T14:28:53 ECT" duration-ms="4132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eliminarFiltro -->
+        <test-method signature="exportar()[pri:5, instance:test.FiltroTest@6f46426d]" started-at="2021-09-16T14:28:53 ECT" name="exportar" finished-at="2021-09-16T14:28:55 ECT" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportar -->
+        <test-method signature="cerrarPestana()[pri:6, instance:test.FiltroTest@6f46426d]" started-at="2021-09-16T14:28:55 ECT" name="cerrarPestana" finished-at="2021-09-16T14:28:55 ECT" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarPestana -->
+      </class> <!-- test.FiltroTest -->
+      <class name="test.SiExHomeTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.SiExHomeTest@3d5c822d]" started-at="2021-09-16T14:28:18 ECT" name="beforeClass" finished-at="2021-09-16T14:28:18 ECT" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="isContenedorDisplayed()[pri:0, instance:test.SiExHomeTest@3d5c822d]" started-at="2021-09-16T14:28:18 ECT" name="isContenedorDisplayed" finished-at="2021-09-16T14:28:21 ECT" duration-ms="3065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isContenedorDisplayed -->
+      </class> <!-- test.SiExHomeTest -->
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="beforeClassLogin()[pri:0, instance:test.LoginTest@759d26fb]" started-at="2021-09-16T14:27:56 ECT" name="beforeClassLogin" finished-at="2021-09-16T14:28:00 ECT" duration-ms="3758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassLogin -->
+        <test-method signature="ingresoCorrectoALogicorba()[pri:0, instance:test.LoginTest@759d26fb]" started-at="2021-09-16T14:28:01 ECT" name="ingresoCorrectoALogicorba" finished-at="2021-09-16T14:28:04 ECT" duration-ms="3339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ingresoCorrectoALogicorba -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.HomeTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.HomeTest@3c73951]" started-at="2021-09-16T14:28:04 ECT" name="beforeClass" finished-at="2021-09-16T14:28:04 ECT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="aplicacionLogiSiExCargada()[pri:0, instance:test.HomeTest@3c73951]" started-at="2021-09-16T14:28:04 ECT" name="aplicacionLogiSiExCargada" finished-at="2021-09-16T14:28:18 ECT" duration-ms="13867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aplicacionLogiSiExCargada -->
+      </class> <!-- test.HomeTest -->
+      <class name="general.Settings">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:general.Settings@4bb33f74]" started-at="2021-09-16T14:28:00 ECT" name="beforeSuite" finished-at="2021-09-16T14:28:01 ECT" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- general.Settings -->
+    </test> <!-- DefinicionesSQL -->
+  </suite> <!-- Suite -->
+</testng-results>

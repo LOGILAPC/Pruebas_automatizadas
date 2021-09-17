@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="DefinicionesSQL(failed)">
+    <classes>
+      <class name="test.FiltroTest">
+        <methods>
+          <include name="exportar"/>
+          <include name="beforeTestLogin"/>
+          <include name="eliminarFiltro"/>
+          <include name="verSql"/>
+        </methods>
+      </class> <!-- test.FiltroTest -->
+    </classes>
+  </test> <!-- DefinicionesSQL(failed) -->
+</suite> <!-- Failed suite [Suite] -->
